@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+             >
+
+            <ImageView
+                android:id="@+id/login_image"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/chatter_logo" />
+            <EditText
+                android:id="@+id/mobile"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/login_image"
+                android:hint="enter your phone number"
+                android:padding="4dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:inputType="phone" />
+
+            <EditText
+                android:background="@drawable/border"
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mobile"
+                android:hint="Enter password"
+                android:inputType="textPassword"
+                android:padding="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/password"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:padding="4dp"
+
+            >
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="submit" />
+
+            <TextView
+                android:id="@+id/signup"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="80px"
+                android:text="Sign Up" />
+
+            <TextView
+                android:id="@+id/forgot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password" />
+
+        </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

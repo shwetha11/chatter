@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1005966023425",
+    "firebase_url": "https://chatter-8cecf.firebaseio.com",
+    "project_id": "chatter-8cecf",
+    "storage_bucket": "chatter-8cecf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005966023425:android:3c6bb1adbff6dd860b9900",
+        "android_client_info": {
+          "package_name": "com.example.codingcafe.chatter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005966023425-f9t5nmk5brfhjvl2iqt6r6a6ahj5deh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5NrfNIG3v3r_huj6E9zbnS7sHI2YsbKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005966023425-f9t5nmk5brfhjvl2iqt6r6a6ahj5deh1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
